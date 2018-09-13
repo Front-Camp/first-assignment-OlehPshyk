@@ -8,7 +8,7 @@
  * turnMeBaby('Some text'); // 'txet emoS'
  */
 const turnMeBaby = str => {
-  /* your logic here...*/
+  typeof myVar === 'string' || return str.split("").reverse().join("");
 };
 
 export default turnMeBaby;

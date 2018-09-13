@@ -7,7 +7,9 @@
 * max([-1, 0]);   // 0
 */
 const max = arr => {
-  /* your logic here...*/
+  arr.filter( (x) => ( isFinite(x) )).reduce((a, b) => {
+    return Math.max(a, b);
+  });
 };
 
 export default max;
