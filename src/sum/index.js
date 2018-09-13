@@ -10,7 +10,9 @@
 * sum(-1, 13); // 12
 */
 const sum = (a, b) => {
-  return a+b;
+  typeof(a) === 'number' && typeof(b) ==='number'{
+    return a+b;
+  }
 };
 
 export default sum;
