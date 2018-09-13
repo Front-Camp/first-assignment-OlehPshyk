@@ -7,8 +7,8 @@
 * max([-1, 0]);   // 0
 */
 const max = arr => {
-  arr.filter( (x) => ( isFinite(x) )).reduce((a, b) => {
-    return Math.max(a, b);
+  return arr.filter( (x) => ( isFinite(x) )).reduce((a, b) => {
+    return ( a > b ? a : b );
   });
 };
 
